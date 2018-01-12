@@ -9,7 +9,7 @@ Testing: 3500 images (700 for each class). The labels are held by the Kaggle.com
 
 ### Overview of the files
 task5-kaggle.ipynb:Main code, all functions run in this notebook file, and all results are printed here
-/ecbm4040/neuralnets/kaggle.py: This script defines the method to train our model and test the trained model
+kaggle.py: This script defines the method to train our model and evaluate the trained model and the prediction of test data
 
 ### Layers Construction
 input >> [conv2d-maxpooling-norm] >> [conv2d-maxpooling-norm] >> flatten >> DenseLayer >> AffineLayer >> softmax loss >> output
